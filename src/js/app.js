@@ -1,6 +1,21 @@
 let log = console.log;
 
 
+document.addEventListener('DOMContentLoaded', init);
+
+function init() {
+	const box = document.querySelector('.box');
+	const radioNav = document.getElementsByName('moveBox');
+
+	[].forEach.call(radioNav, function(btn) {
+		btn.addEventListener('change', (e) => {
+			const selectedFace = e.target.id;
+			box.className = 'box flipped-' + selectedFace;
+		})
+	})
+
+}
+
 
 
 

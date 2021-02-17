@@ -21,25 +21,49 @@
 			<p>frank<span>ndounga.</span></p>
 		</div>
 		<ul class="navLinks">
-			<li><a href="#">home</a></li>
-			<li><a href="#">about</a></li>
-			<li><a href="#">services</a></li>
-			<li><a href="#">skills</a></li>
-			<li><a href="#">contact</a></li>
+			<li><a href="#"><input type="radio" name="moveBox" id="front"> <label for="front">home</label></a></li>
+			<li><a href="#"><input type="radio" name="moveBox" id="back"> <label for="back">about</label></a></li>
+			<li><a href="#"><input type="radio" name="moveBox" id="top"> <label for="top">services</label></a></li>
+			<li><a href="#"><input type="radio" name="moveBox" id="bottom"> <label for="bottom">skills</label></a></li>
+			<li><a href="#"><input type="radio" name="moveBox" id="left"> <label for="left">contact</label></a></li>
+			<li><a href="#"><input type="radio" name="moveBox" id="right"> <label for="right">works</label></a></li>
 		</ul>
 	</header>
 	
 	<div class="container">
-		<img src="src/img/visage.png" alt="" class="avatar">
 		<section class="banner">
-			<div class="dev_info">
-				<p>Hello, my name is</p>
-				<h1>ndounga frank</h1>
-				<h2>and i'm a <span class="info_animation">developer</span> </h2>
-				<a href="#" class="btn_hire">Hire me</a>
+			<div class="scene-box">
+				<div class="box">
+					<div class="box--face box--face__front">
+						<div class="dev_info">
+							<p>Hello, my name is</p>
+							<h1>ndounga frank</h1>
+							<h2>and i'm a <span class="info_animation">developer</span> </h2>
+							<a href="#" class="btn_hire">Hire me</a>
+						</div>
+					</div>
+					<div class="box--face box--face__back">
+						<a href="#about">go to about</a>
+					</div>
+					<div class="box--face box--face__top">
+						<a href="#services">go to services</a>
+					</div>
+					<div class="box--face box--face__bottom">
+						<a href="#skills">go to skills</a>
+					</div>
+					<div class="box--face box--face__left">
+						<a href="#contact">go to contact</a>
+					</div>
+					<div class="box--face box--face__right">
+						<a href="#">you can see few of my work here</a>
+					</div>
+				</div>
 			</div>
 		</section>
 	</div>
+	
+	
+	<!--about section-->
 	
 	<section id="about" class="about">
 		<div class="headSection">
@@ -52,7 +76,7 @@
 				<img src="src/img/pic.jpg" alt="" class="pic">
 			</div>
 			<div class="rightSide">
-				<h3>i am frank and i am a <span>developer</span></h3>
+				<h3>i am frank and i am a <span>web developer</span></h3>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam nisi error vero nemo expedita reiciendis quod commodi assumenda minima, nesciunt accusamus aspernatur perferendis, ipsa fuga vel est incidunt harum et. Nobis error recusandae repellat quisquam deserunt quis reprehenderit labore velit voluptates reiciendis vero fuga minima neque eos, aliquid itaque ea, iure commodi praesentium consectetur sequi. Omnis eveniet dolore dolores perferendis eum. Magni explicabo minus magnam asperiores.</p>
 				<a href="" class="btn_downloadCv">download CV</a>
 			</div>
@@ -68,23 +92,23 @@
 		<div class="services-box">
 			<div class="service">
 				<div class="icon">
-					
+					<i class="fas fa-paint-brush"></i>
 				</div>
 				<h3>web design</h3>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias beatae qui minus sunt inventore, sit quisquam.</p>
 			</div>
 			<div class="service">
 				<div class="icon">
-					
+					<i class="fa fa-code"></i>
 				</div>
-				<h3>advertising</h3>
+				<h3>integration</h3>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias beatae qui minus sunt inventore, sit quisquam.</p>
 			</div>
 			<div class="service">
 				<div class="icon">
-					
+					<i class="fas fa-server"></i>
 				</div>
-				<h3>apps design</h3>
+				<h3>web app</h3>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias beatae qui minus sunt inventore, sit quisquam.</p>
 			</div>
 		</div>
